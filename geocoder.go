@@ -32,6 +32,7 @@ type Address struct {
 	Country          string
 	CountryCode      string
 	City             string
+	District         string
 }
 
 // ErrLogger is an implementation of StdLogger that geo uses to log its error messages.
